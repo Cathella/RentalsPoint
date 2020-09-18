@@ -1,3 +1,44 @@
 body {
   font-family: 'Quicksand', sans-serif;
+  background-image: linear-gradient(to bottom, rgba(63, 32, 85, .4), rgba(63, 32, 85, .8)), url(../img/andrea-davis-7450hH--84M-unsplash.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  font-weight: 500;
+}
+
+h1,
+h5,
+.logo {
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+h5 {
+  line-height: 2;
+  font-size: 1.1em;
+}
+
+.logo {
+  font-size: 1.2em;
+}
+
+.logo span,
+h1 span {
+  color: #fdd831;
+}
+
+.search {
+  background: #fdd831;
+  color: black;
 }
