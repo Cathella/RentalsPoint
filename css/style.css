@@ -41,4 +41,9 @@ h1 span {
 .search {
   background: #fdd831;
   color: black;
+  font-weight: 700;
+}
+
+i {
+  color: #a052d9;
 }
