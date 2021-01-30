@@ -1,9 +1,12 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-image: linear-gradient(to bottom, rgba(63, 32, 85, .4), rgba(63, 32, 85, .8)), url(../img/andrea-davis-7450hH--84M-unsplash.jpg);
+}
+
+.intro-bg {
+  background-image: url(../img/andrea-davis-7450hH--84M-unsplash.jpg);
   background-size: cover;
   background-position: center bottom;
-  height: auto;
+  height: 550px;
 }
 
 ul {
@@ -13,34 +16,31 @@ ul {
 }
 
 nav a {
-  color: white;
   font-weight: 500;
 }
 
-h1,
-h5,
-.logo {
+h1 {
   font-weight: 700;
-  color: whitesmoke;
-}
-
-h5 {
-  line-height: 2;
-  font-size: 1.1em;
+  line-height: 1.3;
 }
 
 .logo {
   font-size: 1.2em;
+  font-weight: 700;
 }
 
-.logo span,
+.text-purple {
+  color: #a052d9;
+}
+
 h1 span {
-  color: #fdd831;
+  /* color: #a052d9; */
+  text-decoration: underline;
+  text-decoration-color: #fdd831;
 }
 
 .search {
-  background: #fdd831;
-  color: black;
+  background: #a052d9;
   font-weight: 700;
 }
 
